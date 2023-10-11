@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CricbuzzInterview</string>
+    <string name="sneaker_ship">SNEAKERSHIP</string>
+    <string name="popular">Popular</string>
+    <string name="sort_by">Sort by</string>
+    <string name="cart">CART</string>
+    <string name="order_details">Order Details</string>
+    <string name="check_out">$Check Out</string>
+</resources>

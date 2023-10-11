@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/launcher">
+
+    <fragment
+        android:id="@+id/launcher"
+        android:name="com.example.cricbuzzinterview.view.ListClassFragment">
+        <action
+            android:id="@+id/navigate_to_view_details"
+            app:destination="@id/view_details">
+            <argument
+                android:name="nameOfProduct"
+                app:argType="string"
+                app:nullable="false" />
+            <argument
+                android:name="id"
+                app:argType="string"
+                app:nullable="false" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/cart"
+        android:name="com.example.cricbuzzinterview.view.CartFragment" />
+
+    <fragment
+        android:id="@+id/view_details"
+        android:name="com.example.cricbuzzinterview.view.ViewDetailsFragment">
+
+    </fragment>
+
+</navigation>
